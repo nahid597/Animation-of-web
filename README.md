@@ -1,6 +1,8 @@
 # Animation
 This is simple Animation of web project.In this project we create a simple todo list with animation.Hopefully this is very funny when user see it.
 
+##Version
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
 
 ## Development server
