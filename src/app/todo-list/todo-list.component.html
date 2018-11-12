@@ -1,0 +1,26 @@
+<div @todosAnimation>
+
+  <br/>
+<div class="container">
+
+
+  <h2>ToDos..</h2>
+
+
+
+  <input class="form-control" type="input" #Input (keyup.enter)="addEliment(Input)">
+
+</div>
+
+<div>
+  <ul class="list-group">
+    <li @todoAnimation (@todoAnimation.start)='animationStarted($event)' (@todoAnimation.done)='animationDone($event)'
+      *ngFor="let list of lists" class="list-group-item" (click)="deleteElement(list)">
+      {{list}}
+    </li>
+
+  </ul>
+</div>
+
+
+</div>
